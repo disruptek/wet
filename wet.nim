@@ -91,7 +91,7 @@ proc wet(coords="") =
       row.windSpeeds,
       $row.summary
     ])
-  echo hours.render()
+  stdout.write hours.render()
 
   # moon phases? 🌑🌒🌓🌔🌕🌖🌗🌘
 
