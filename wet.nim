@@ -47,8 +47,8 @@ proc forecastFor(coords: Coords): WeatherReport =
 
 proc windSpeeds(dp: DataPoint): string =
   var
-    ws = &"{dp.windSpeed:>2.0f}"
-    wg = &"{dp.windGust:>2.0f}"
+    ws {.used.} = &"{dp.windSpeed:>2.0f}"
+    wg {.used.} = &"{dp.windGust:>2.0f}"
   return &"{ws.stripDot} - {wg.stripDot}"
 
 proc wet(coords="") =
