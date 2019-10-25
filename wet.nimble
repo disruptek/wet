@@ -1,10 +1,10 @@
-version = "0.0.2"
+version = "0.0.3"
 author = "disruptek"
 description = "wet"
 license = "MIT"
 requires "nim >= 0.20.0"
 requires "terminaltables >= 0.1.1"
-requires "cligen >= 0.9.38"
+requires "cligen >= 0.9.40"
 requires "dashing >= 0.1.1"
 requires "https://github.com/disruptek/forecast.git >= 1.0.2"
 
